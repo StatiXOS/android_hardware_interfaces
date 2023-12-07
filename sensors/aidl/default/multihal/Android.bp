@@ -49,6 +49,7 @@ cc_library_static {
         ":__subpackages__",
         "//hardware/interfaces/sensors/aidl/multihal:__subpackages__",
         "//hardware/interfaces/tests/extension/sensors:__subpackages__",
+        "//vendor:__subpackages__",
     ],
     static_libs: [
         "android.hardware.sensors@1.0-convert",
